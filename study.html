@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="study.css">
+    <link rel="shortcut icon" href="./logo.png" type="image/png">
+    <tittle Parallax></tittle>
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/e5af2b91b2.js" crossorigin="anonymous"></script>
+</head>  
+<body>
+    <div class="page">
+        <section class="header">        
+
+                <a href="#"class="logo">
+                <img src="./logo.png" alt="logo">
+                </a>
+                <nav class="navbar">
+                    <a href="index3.html">Главная</a>
+                    <a href="standarts.html">Стандарты</a>
+                    <a href="news.html">Новости</a>
+                    <a href="Audit.html">Аудит</a>
+                    <a href="study.html">Обучение</a>
+                    <a href="consalting.html">Консалтинг</a>
+                    <a href="regcon-contacts.html">Контакты</a>
+                </nav>
+
+            <div id="menu"><i class="fa-solid fa-bars" onclick="changeIcon(this)"></i></div>
+
+        </section>
+        <script>
+
+            let nav = document.querySelector('.header .navbar');
+            let menu = document.querySelector('#menu');
+
+            menu.onlick = () => {
+                navbar.classList.toggle('active');
+            }
+
+            let changeIcon = function(icon) {
+            icon.classList.toggle('fa-times');
+            }
+
+         </script>
+
+        <div class="page-content">
+        
+            <div class="parallax">
+                <div class="container">   
+
+                <div class="item item-1">
+                    <div class="text">
+                        <h1> Открытое обучение</h1>
+                    </div>
+                    <a href="открытое.обучение.html"><h3>смотреть</h3></a>
+                </div>
+
+
+                <div class="item item-2">
+                    <div class="text">
+                        <h1> Корпоративное обучение</h1>
+                    </div>
+                    <a href="корпоративное.обучение.html"><h3>смотреть</h3></a>
+                </div>
+
+                <div class="parallax-text">
+
+                    <p><b class="keywords"> Образовательная деятельность</b> являлась одним из приоритетных направлений деятельности компании с момента ее основания. Именно с этой цель был создан Учебно-методический центр "Регистр-Консалтинг" (УМЦ "РЕГКОН")
+                        <p>
+                            <b class="keywords">ЧОУ ДПО "УМЦ "РЕГКОН" </b>- это структурное подразделение компании "Регистр-Консалтинг", состоящее из экспертов, преподавателей и специалистов с богатым профессиональным опытом в области систем менеджмента, имеющее лицензию на образовательную деятельность. Поскольку основной компетенцией компании "Регистр-Консалтинг" является экспертно-консультационная деятельность в сфере разработки, внедрения и улучшения систем менеджмента, УМЦ "РЕГКОН" - это не просто обучающая организация, куда приглашаются сторонние преподаватели, а специализированная консалтинговая компания с правом на образовательную деятельность.
+                        ​<br>
+                        <p><b class="keywords">Преимущества:</b>
+                        
+                           <br>- Ключевым преимуществом учебного центра является профессиональный состав и богатый практический опыт преподавателей. В основе разрабатываемых учебных программа лежат глубокие теоретические знания и богатый многолетний опыт работы наших экспертов. Это позволяет разрабатывать актуальные на сегодняшний день учебные программы, имеющие практическую ценность для ее слушателей и отличающиеся сбалансированным сочетанием теории и практики.
+                           <br>- Особым преимуществом учебного центра является проведение очного обучения, которое позволяет контролировать усвоение новых знаний каждым учащимся. Формат очного обучения достаточно интенсивный, что не позволяет тратить время на ненужную информацию.
+                           <br>- В процессе обучения учащиеся получают возможность общаться и консультироваться с профильными специалистами - практиками. По окончании обучения слушатели получают удостоверения и сертификаты в соответствии с законом "Об образовании".
+                           <br>- Компания дает возможность выбрать своим заказчикам наиболее удобный формат работы. Для это компания предлагает открытое и корпоративное обучение.
+
+                        <div class="title">Подать заявку</div>
+                        <div class="title-1">Расписание курсов и семинаров</div>
+                </div>
+
+            </div>
+
+            <script src="certificate.js"></script>
+   
+
+        </div>
+   
+
+
+        </body>
+            <footer>
+                <div class="footer">
+                    <nav>
+                        <a href ="#"> Политика обработки персональных данных</a> 
+
+                    </nav>
+
+                    <div class="logopng">
+                        <a href="index3.html"><img class="graficlogo"src="logo.png" alt=""></a>
+                    </div>
+
+                    <div class="social">
+                        <a href="#"><img src="./gmail.png"></img></a>
+                        <a href="#"><img src="./tg.jpg"></img></a>
+                        <a href="#"><img src="./VK.jpg"></img></a>
+                        <a href="#"><img src="./whatsapp.jpg"></img></a>
+                    </div>
+
+                    <nav>
+                        <a href ="#"> © 1999 - 2024 "Регистр-Консалтинг"</a> 
+                    </nav>
+                    
+
+                </div>
+            </footer>
+    </div>
+</html>
+
